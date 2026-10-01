@@ -1,8 +1,9 @@
-fnc test1(i:int):int{
-  return i+1;
-}
+# fnc test1(i:int):int{
+#    return i+1;
+#}
+
 fnc test(i:int):int{
-  writeLn!(i);
+# writeLn!(i);
   if(i==0){
     return 1;
   }

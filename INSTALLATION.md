@@ -59,4 +59,4 @@ Finally, set the `VERTEX_RUNTIME_PATH` environment variable to point to `libvm_r
 
 ## Done
 
-Congratulations — Vertex has been successfully built from source
+Congratulations — Vertex has been successfully built from source!
