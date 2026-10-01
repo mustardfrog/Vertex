@@ -1,7 +1,7 @@
 # Installing Vertex
 
 > **Note:** This document explains how to build Vertex from source.  
-> If you don’t want to build it manually, you can use the pre-built binaries from the GitHub repository.  
+> If you don’t want to build it manually, you can use the pre-built binaries from the [Releases](https://github.com/DomioKing653/Vertex/releases/tag/v0.1.51-alpha).
 > *(Note: binaries are currently available only for Linux.)*
 
 ---
@@ -46,6 +46,7 @@ cargo build --lib --release
 
 ## Final Setup
 
+#### Manual
 After successful compilation, move the required binaries:
 
 - `vertex` and `vertexC` from `./target/release/`
@@ -55,8 +56,14 @@ Place them somewhere in your `PATH` environment variable.
 
 Finally, set the `VERTEX_RUNTIME_PATH` environment variable to point to `libvm_runtime.a`.
 
+#### Using script
+You can also set those env variables using the script by runing:
+``bash
+source set_env_vertex.sh
+``
+
 ---
 
 ## Done
 
-Congratulations — Vertex has been successfully built from source
+Congratulations — Vertex has been successfully built from source!

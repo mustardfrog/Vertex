@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# run as `source set_env_vertex.sh`, not as `./set_env_vertex.sh`
+
 export BASEDIR=$(builtin cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 
 export PATH=$PATH:${BASEDIR}/target/release/:${BASEDIR}/src/runtime_lib/target/release/
