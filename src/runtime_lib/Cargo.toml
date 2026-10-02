@@ -5,8 +5,9 @@ edition = "2021"
 
 [profile.release]
 panic = "abort"
-[profile.debug]
+[profile.dev]
 panic = "abort"
+debug = true
 
 [lib]
 crate-type = ["staticlib"]
