@@ -47,6 +47,9 @@ cargo build --lib --release
 ## Final Setup
 
 #### Manual
+
+### Setting PATH manually
+
 After successful compilation, move the required binaries:
 
 - `vertex` and `vertexC` from `./target/release/`
@@ -57,10 +60,17 @@ Place them somewhere in your `PATH` environment variable.
 Finally, set the `VERTEX_RUNTIME_PATH` environment variable to point to `libvm_runtime.a`.
 
 #### Using script
+
 You can also set those env variables using the script by runing:
 ``bash
 source set_env_vertex.sh
 ``
+
+### Setting PATH using script
+In any shell, run:
+```bash
+source set_env_vertex.sh
+```
 
 ---
 
